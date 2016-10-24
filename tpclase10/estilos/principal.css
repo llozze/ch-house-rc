@@ -1,0 +1,68 @@
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  -webkit-user-select: none;
+  /* for button */
+  -moz-user-select: none;
+  -ms-user-select: none;
+  outline: none; }
+  button::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-left: 100px; }
+
+.btn {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  vertical-align: middle;
+  padding: 6px 12px;
+  cursor: pointer; }
+
+.btn-defalul {
+  background-color: white; }
+
+.btn-primary {
+  background-color: #0066CC;
+  border: #004080;
+  background: darken #0066CC, 25%;
+  color: white; }
+
+.btn-success {
+  background-color: #009966;
+  color: white; }
+
+.btn-info {
+  background-color: #00FFFF;
+  color: white; }
+
+.btn-warning {
+  background-color: #FF9900;
+  color: white; }
+
+.btn-danger {
+  background-color: #FF0000;
+  color: white; }
+
+.btn-link {
+  background-color: white;
+  color: #0066CC; }
+
+.btn-lg {
+  font-size: 130%; }
+
+.btn-sm {
+  font-size: 80%; }
+
+.btn-xs {
+  font-size: 60%; }
+
+/*# sourceMappingURL=principal.css.map */

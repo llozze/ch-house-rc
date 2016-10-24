@@ -1,0 +1,97 @@
+@import 'reset.scss';
+
+$basic-font: 'Roboto', sans-serif;
+$color_basic: white;
+$color_primary: #0066CC;
+$color_success: #009966;
+$color_info: #00FFFF;
+$color_warning: #FF9900;
+$color_danger: #FF0000;
+
+
+
+
+body{
+   font-family: $basic-font; 
+   margin-left: 100px;
+}
+
+@mixin saturarborde($color) {
+    border: darken($color,15%);
+}
+
+@mixin saturarfondo($color) {
+    background: darken ($color,25%);
+}
+
+
+.btn {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 6px 12px;
+    cursor: pointer
+
+}
+
+
+.btn-defalul {
+    background-color: $color_basic;
+
+    
+}
+
+.btn-primary {
+    background-color: $color_primary;
+    @include saturarborde($color_primary);
+    @include saturarfondo($color_primary);
+
+    color: $color_basic;
+
+}
+
+
+.btn-success{
+    background-color: $color_success;
+    color: $color_basic;
+
+}
+
+
+.btn-info{
+    background-color: $color_info;
+    color: $color_basic;
+
+}
+
+.btn-warning{
+    background-color: $color_warning;
+    color: $color_basic;
+}
+
+.btn-danger{
+    background-color: $color_danger;
+    color: $color_basic;
+}
+
+.btn-link{
+    background-color: $color_basic;
+    color: $color_primary;
+}
+
+.btn-lg{
+    font-size: 130%;
+}
+
+.btn-sm{
+    font-size: 80%;
+}
+
+.btn-xs{
+    font-size: 60%;
+}
+
+
+
+
+
