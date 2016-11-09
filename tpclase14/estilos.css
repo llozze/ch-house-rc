@@ -1,0 +1,396 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	
+}
+
+section{
+	padding: 100px 0;
+}
+
+section h2{
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+
+}
+
+section h3{
+	font-size: 16px;
+	font-family: 'Droid Serif', serif;
+	text-transform: none;
+	font-weight: 400;
+	font-style: italic;
+	margin-bottom: 75px;
+
+}
+
+h4{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+i.text-primary {
+	color: #fed136;
+}
+
+.text-primary a{
+	color: #fed136;
+
+}
+
+
+/* ---------NAVBAR ------------------ */
+
+.container{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.row{
+	margin-right: -15px;
+	margin-left: -15px;
+
+}
+
+.navbar-custom{
+	background-color: #222222;
+	border-color: transparent;
+}
+
+.navbar-custom .navbar-brand{
+	color: #fed136;
+	font-family: "kaushan Script";
+}
+
+.navbar-custom .navbar-brand:hover{
+	color: #fec503;
+
+}
+
+.navbar-custom .nav li a{
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+
+.navbar-custom .nav li a:hover{
+	color: #fed136;
+	background-color: transparent;
+	outline: none;
+}
+
+/* ---------NAVBAR ------------------ */
+
+
+/* ---------HEADER ------------------ */
+
+header { 
+  background-image: url('foto4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+
+}
+
+header .titulos{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+header .titulos .titulo-1{
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-family: 40px;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+
+header .titulos .titulo-2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 75px;
+	margin-bottom: 50px;
+
+}
+
+.btn-lg {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	background-color: #fed136;
+	border-color: #fed136;
+	font-weight: 700;
+	border-radius: 3px;
+	font-size: 18px;
+	padding: 20px 40px;
+	border-radius: 6px;
+}
+
+.btn-lg:hover {
+	color: white;
+	background-color: #fec503;
+
+}
+
+button .btn-lg {
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	background-color: #fed136;
+	border-color: #fed136;
+	font-weight: 700;
+	border-radius: 3px;
+	font-size: 18px;
+	padding: 30px 40px;
+}
+
+/* ---------HEADER ------------------ */
+
+
+
+/* --------PORTFOLIO ---------------*/
+
+.bg-light-gray{
+	background-color: #eee;
+}
+
+.portfolio-hover .img-responsive:hover{
+	transition-property: color;
+	transition: all ease .5s;
+	color: #fed136;
+}
+
+.portfolio-caption{
+	max-width: 400px;
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: center;
+	padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption p{
+	font-family: 'Droid Serif', serif;
+	font-style: italic;
+	font-size: 16px;
+	margin: 0;
+}
+
+.portfolio-hover{
+	background: rgba(254,209,54,0.9);
+	position: absolute;
+	width: 92.33333%;
+	height: 72.33333%;
+	opacity: 0;
+	transition: all ease 0.5s;
+}
+
+.portfolio-hover:hover{
+	opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content{
+	position: absolute;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	top: 50%;
+	margin-top: -12px;
+	color: #fff;
+}
+
+/* -------- ABOUT ---------------*/
+
+ul{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.timeline{
+	list-style: none;
+	padding: 0;
+	position: relative;
+}
+
+.timeline li{
+	margin-bottom: 50px;
+	position: relative;
+	min-height: 50px;
+}
+
+.timeline li .timeline-image{
+	left: 0;
+	margin-left: 0;
+	width: 80px;
+	height: 80px;
+
+	position: absolute;
+	z-index: 100;
+	background-color: #fed136;
+	color: #fff;
+	border-radius: 100%;
+	border: 7px solid #f1f1f1;
+	text-align: center;
+}
+
+.timeline li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
+}
+
+.timeline li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
+}
+
+.timeline li.timeline-inverted .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
+}
+
+.timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+.timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+
+/* -------- ABOUT ---------------*/
+
+
+
+/* -------- TEAM ---------------*/
+.team-member{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.team-member img {
+	margin: 0 auto;
+	border: 7px;
+	color: #fff;
+}
+.team-member h4 {
+		margin-top: 25px;
+		margin-bottom: 0;
+		text-transform: none;
+}
+.team-memeber p{
+		margin-top: 0;
+}
+
+/* -------- TEAM ---------------*/
+
+
+/* -------- CLIENTS ---------------*/
+
+section .clients img{
+	margin: 30px auto;
+
+}
+
+/* -------- CLIENTS ---------------*/
+
+
+
+/* -------- CONTACT ---------------*/
+
+section#contact{
+	background-color: #222222;
+	background-image: url('map.png');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+section#contact .tittle{
+	margin-bottom: 25px;
+	color: #fff;
+
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea{
+
+	padding: 20px;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 176px;
+
+}
+
+/* --------CONTACT ---------------*/
+
+
+/* -------- FOOTER ---------------*/
+
+footer {
+  padding: 25px 0;
+  text-align: center;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
+footer ul li a{
+	color: #fed136;
+	outline: none;
+}
+
+footer ul li a:hover{
+	color: #fed136;
+	
+}
+
+.fa{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+}
+
+.list-inline{
+	padding-left: 0;
+	margin-left: -5px;
+	list-style: none;
+}
+
+.lis-inline li{
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+ul .social-buttons li a{
+	display: block;
+	background-color: #222;
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	font-size: 20px;
+	line-height: 40px;
+	color: #fff;
+	outline: 0;
+	transition: all .3s;
+}
+
+/* -------- FOOTER ---------------*/
+
+
+
+
